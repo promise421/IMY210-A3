@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    },
+    "Snippet": {
+      "type": "text"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
